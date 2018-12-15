@@ -25,8 +25,7 @@ def variator(group,root,n):
 		if len(sub)==n:
 			queens = []
 			for kss in range(0,n): queens.append([kss,sub[kss]])
-			if iter_queens(queens)==True: show(queens); counter.append(0);
-			
+			if iter_queens(queens)==True: show(queens); counter.append(0);			
 		else:
 			for k in root:
 				if k not in sub:
