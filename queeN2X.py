@@ -36,8 +36,7 @@ def variator(group,root,n):
 					variator([toadd],root,n)
 
 numberOfqueens = int(input('NxN'))
-rows = []
-root = []
+rows, root = [], []
 for i in range(0,numberOfqueens):
 	rows.append([i])
 	root.append(i)
